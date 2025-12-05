@@ -1,33 +1,43 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <link rel="stylesheet" href="style.css">
-  <script src="anim.js"></script>
+<link rel="stylesheet" href="style.css">
 </head>
-<body onload="pageEnter();">
+<body class="fade">
 
-<div class="loader" id="loader"></div>
-
-<section class="header-card pop">
+<!-- Header Sapaan -->
+<div class="header-card slide">
   <h2>Halo, Rival 👋</h2>
-  <p>Selamat datang kembali! Siap untuk konsultasi hari ini?</p>
-</section>
-
-<h3 class="title">Layanan Cepat</h3>
-<div class="quick-menu fade">
-  <div class="card"><img src="https://img.icons8.com/office/80/chat.png"><p>Chat Dokter</p></div>
-  <div class="card"><img src="https://img.icons8.com/office/80/phone.png"><p>Panggilan</p></div>
-  <div class="card"><img src="https://img.icons8.com/office/80/video.png"><p>Video Call</p></div>
+  <p>Selamat datang kembali — semoga harimu sehat!</p>
 </div>
 
-<h3 class="title2">Status Kesehatan Hari Ini</h3>
-<div class="stat-container slideup">
-  <div class="stat">❤️ Tekanan Darah: 120/80</div>
-  <div class="stat">🔥 Kalori: 1800 kcal</div>
-  <div class="stat">👟 Langkah: 5230 langkah</div>
+<!-- Layanan Cepat -->
+<h3 class="section-title">Layanan Cepat</h3>
+<div class="quick-grid slide">
+  <div class="quick-item">
+      <img src="https://img.icons8.com/color/96/chat--v1.png">
+      <p>Chat Dokter</p>
+  </div>
+  <div class="quick-item">
+      <img src="https://img.icons8.com/color/96/phone.png">
+      <p>Panggilan</p>
+  </div>
+  <div class="quick-item">
+      <img src="https://img.icons8.com/color/96/video-call.png">
+      <p>Video Call</p>
+  </div>
 </div>
 
-<button class="fab pulse">🤖 AI Assistant</button>
+<!-- Status Kesehatan -->
+<h3 class="section-title">Status Kesehatan Hari Ini</h3>
+<div class="status-card fadeup">
+  <p>❤️ Tekanan Darah: <b>120/80</b></p>
+  <p>🔥 Kalori Harian: <b>1800 kcal</b></p>
+  <p>👟 Langkah: <b>5230 langkah</b></p>
+</div>
+
+<!-- Button AI -->
+<button class="fab">🤖 Tanya Asisten</button>
 
 </body>
 </html>
