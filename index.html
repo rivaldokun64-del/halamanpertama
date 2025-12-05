@@ -1,43 +1,88 @@
 <!DOCTYPE html>
-<html>
+<html lang="id">
 <head>
-<link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Beranda</title>
+
+<style>
+body {
+    font-family: Arial, sans-serif;
+    background: #E8F9F1;
+    margin: 0;
+}
+
+.header {
+    background: #3CCB8E;
+    padding: 23px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.search {
+    margin: 15px;
+    background: white;
+    padding: 12px;
+    border-radius: 10px;
+    font-size: 14px;
+}
+
+.section-title {
+    margin: 20px 15px 10px;
+    font-weight: bold;
+    color: #1b6a4a;
+}
+
+.menu-grid {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+}
+
+.menu-item {
+    text-align: center;
+    width: 25%;
+}
+
+.menu-item div {
+    width: 60px;
+    height: 60px;
+    background: #3CCB8E;
+    border-radius: 15px;
+    margin: auto;
+}
+
+.card {
+    background: white;
+    margin: 10px 15px;
+    padding: 15px;
+    border-radius: 12px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+</style>
 </head>
-<body class="fade">
 
-<!-- Header Sapaan -->
-<div class="header-card slide">
-  <h2>Halo, Rival 👋</h2>
-  <p>Selamat datang kembali — semoga harimu sehat!</p>
+<body>
+
+<div class="header">Halo, Selamat Datang</div>
+
+<div class="search">🔍 Cari dokter atau layanan…</div>
+
+<div class="section-title">Layanan Utama</div>
+
+<div class="menu-grid">
+    <div class="menu-item"><div></div><p>Dokter</p></div>
+    <div class="menu-item"><div></div><p>Chat</p></div>
+    <div class="menu-item"><div></div><p>Riwayat</p></div>
+    <div class="menu-item"><div></div><p>Janji</p></div>
 </div>
 
-<!-- Layanan Cepat -->
-<h3 class="section-title">Layanan Cepat</h3>
-<div class="quick-grid slide">
-  <div class="quick-item">
-      <img src="https://img.icons8.com/color/96/chat--v1.png">
-      <p>Chat Dokter</p>
-  </div>
-  <div class="quick-item">
-      <img src="https://img.icons8.com/color/96/phone.png">
-      <p>Panggilan</p>
-  </div>
-  <div class="quick-item">
-      <img src="https://img.icons8.com/color/96/video-call.png">
-      <p>Video Call</p>
-  </div>
-</div>
+<div class="section-title">Rekomendasi</div>
 
-<!-- Status Kesehatan -->
-<h3 class="section-title">Status Kesehatan Hari Ini</h3>
-<div class="status-card fadeup">
-  <p>❤️ Tekanan Darah: <b>120/80</b></p>
-  <p>🔥 Kalori Harian: <b>1800 kcal</b></p>
-  <p>👟 Langkah: <b>5230 langkah</b></p>
-</div>
-
-<!-- Button AI -->
-<button class="fab">🤖 Tanya Asisten</button>
+<div class="card">Konsultasi Dokter – Chat dengan dokter profesional</div>
+<div class="card">Cek Kesehatan – Layanan cepat & mudah</div>
+<div class="card">Layanan Darurat 24/7 – Siap bantu kapan saja</div>
 
 </body>
 </html>
